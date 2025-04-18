@@ -1,6 +1,6 @@
 [package]
 name = "vornix-banner"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
 authors = ["Vornix Technologies"]
 description = "Genera y muestra banners de texto ASCII estilo FIGlet profesionales en la terminal, con colores, fuentes personalizables."
