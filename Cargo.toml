@@ -1,0 +1,28 @@
+[package]
+name = "vornix-banner"
+version = "0.1.1"
+edition = "2021"
+authors = ["Vornix Technologies"]
+description = "Genera y muestra banners de texto ASCII estilo FIGlet profesionales en la terminal, con colores, fuentes personalizables."
+license = "MIT"
+repository = "https://github.com/tu_usuario/vornix-banner" # Enlace al repo de GitHub/GitLab etc. (IMPORTANTE)
+homepage = "https://tu_pagina_web.com/vornix-banner" # Opcional: Una página web si existe
+documentation = "https://docs.rs/vornix-banner" # Enlace a docs.rs (se genera automáticamente al publicar)
+readme = "README.md" # Indica a Crates.io que use este archivo para la descripción
+keywords = ["terminal", "tui", "cli", "banner", "figlet", "ascii-art", "vornix"] # Palabras clave para búsquedas
+categories = ["command-line-interface", "visualization"] # Categorías en Crates.io
+
+[dependencies]
+crossterm = "0.29.0"
+owo-colors = "4.0"
+thiserror = "2.0.12"
+terminal_size = "0.4.2"
+figlet-rs = "0.1.5"
+unicode-width = "0.2.0"
+regex = "1"
+once_cell = "1"
+
+[features]
+default = ["presets", "standard_fonts"]
+presets = []
+standard_fonts = []

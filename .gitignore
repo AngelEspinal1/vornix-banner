@@ -1,0 +1,9 @@
+# Rust target directory
+/target
+
+# Cargo lock file
+Cargo.lock
+
+# Editor configuration files
+.idea/
+.vscode/
