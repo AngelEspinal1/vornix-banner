@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/AngelEspinal1/vornix-banner.git"
 documentation = "https://docs.rs/vornix-banner"
 readme = "README.md"
-keywords = ["terminal", "tui", "cli", "banner", "figlet", "ascii-art", "vornix"]
+keywords = ["terminal", "banner", "figlet", "ascii-art", "vornix"]
 categories = ["command-line-interface", "visualization"]
 
 [dependencies]
