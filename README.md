@@ -69,6 +69,10 @@ fn main() -> io::Result<()> {
 cargo run --example main --features presets
 ```
 
+### Vista previa del resultado
+
+<p align="center"> <img src="assets/output.png" alt="Ejemplo de salida del banner en terminal" width="100%"/> </p>
+
 ## Fuentes integradas
 
 La librería incluye las siguientes fuentes builtin:
